@@ -7,6 +7,7 @@
     <?php $this->load->view("isi/head.php"); ?>
 </head>
 <body>
+    <h2>Hello World</h2>
     <?php $this->load->view("isi/navbar.php"); ?>
     <h3><?php echo $Judul; ?></h3>
     <?php echo $this->session->flashdata('msg'); ?>
