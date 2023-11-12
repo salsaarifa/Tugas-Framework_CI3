@@ -10,7 +10,7 @@
     <?php $this->load->view("isi/navbar.php"); ?>
     <h3><?php echo $Judul; ?></h3>
     <?php echo $this->session->flashdata('msg'); ?>
-    <a href="<?php echo base_url('employees/insert'); ?>">TAMBAH DATA</a>
+    <a href="<?php echo base_url('employees/insert'); ?>">TAMBAH DATA KARYAWAN</a>
     <table border='1'>
         <thead>
             <tr>
